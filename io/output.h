@@ -1,0 +1,8 @@
+//
+// Created by nsakn on 12/23/2022.
+//
+
+#ifndef MIKROORGANIZMI_OUTPUT_H
+#define MIKROORGANIZMI_OUTPUT_H
+
+#endif //MIKROORGANIZMI_OUTPUT_H
