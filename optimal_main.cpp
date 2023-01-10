@@ -237,18 +237,11 @@ int main(int argc, char** argv) {
     string filename = argv[1];
 
 //    string filename = R"(C:\Users\janpu\Downloads\mikroorganizmi\test09.in)";
-    std::cout << "Sleep 1" << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(5000));
     vector<vector<int>> matrix = proccessInputFile(filename);
 
     vector<vector<int>> visited(matrix.size(), vector<int>(matrix[0].size(), 0));
 
-    std::cout << "Sleep 2" << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(5000));
     cout << countMicroorganisms(matrix) << endl;
-
-    std::cout << "Sleep 3" << std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(5000));
 
     return 0;
 }
